@@ -1,0 +1,40 @@
+.main-header {
+    color: #000000d9;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+
+    background-color: white;
+}
+
+.main-content {
+    height: calc(100vh - 134px);
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 70px;
+}
+
+.main-steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    flex: 1;
+
+    padding: 0 200px 100px;
+}
+
+.main-description {
+    margin-bottom: 50px;
+}
+
+.main-footer {
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+
+    text-align: right;
+}

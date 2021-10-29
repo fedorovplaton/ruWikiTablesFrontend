@@ -1,0 +1,9 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .progressContainer {
+    margin-left:  20px;
+}
