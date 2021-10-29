@@ -10,7 +10,7 @@ export class TitlesService {
     }
 
     public static async stopDownload(): Promise<Status> {
-        const response: AxiosResponse<Status> = await axios.post(`http://${backendAddress}/titles/stop`);
+        const response: AxiosResponse<Status> = await axios.post(`http://${backendAddress}:5000/titles/stop`);
 
         return response.data;
     }
