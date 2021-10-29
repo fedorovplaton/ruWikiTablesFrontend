@@ -8,12 +8,12 @@ export type Filter = {
     min_rus_ratio: number,// ok
     max_rus_ratio: number,// ok
 
-    max_empty_ratio_table:[number, number],// ok
-    max_empty_ratio_column: [number, number],// ok
-    min_rus_cel_in_table_ratio: [number, number],// ok
-    min_rus_cel_ratio: [number, number],// ok
-    min_rus_cel_in_col_ratio: [number, number],// ok
-    min_rus_col_ratio: [number, number],// ok
+    max_empty_ratio_table: number,// ok
+    max_empty_ratio_column: number,// ok
+    min_rus_cel_in_table_ratio: number,// ok
+    min_rus_cel_ratio: number,// ok
+    min_rus_cel_in_col_ratio: number,// ok
+    min_rus_col_ratio: number,// ok
 
     dataset_name: string,// ok
     not_rus_symbols_pattern: string,// ok
