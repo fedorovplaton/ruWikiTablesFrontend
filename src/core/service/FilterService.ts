@@ -5,7 +5,7 @@ import {backendAddress} from "../../../config.json";
 
 export class FilterService {
     public static async setFilter (filter: Filter): Promise<Status> {
-        const response: AxiosResponse<Status> = await axios.post(`http://${backendAddress}:5000/detaset/filter/set`, {
+        const response: AxiosResponse<Status> = await axios.post(`http://${backendAddress}:5000/dataset/filter/set`, {
             ...filter
         });
 
