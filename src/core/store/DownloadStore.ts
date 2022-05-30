@@ -6,8 +6,8 @@ export class DownloadStore {
     private intervalPeriod = 3000;
 
     private lastCountDone: number | undefined;
-    private countDone: number = 0;
-    private timeDone: number = 0;
+    private countDone = 0;
+    private timeDone = 0;
 
     constructor(
         getStatus: () => Promise<Status>
